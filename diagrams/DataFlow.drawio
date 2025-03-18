@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="Zl7UcjeNf5q_VIIeMTN1">
-    <mxGraphModel dx="1944" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2230" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,8 +46,23 @@
         <mxCell id="NaULAwTOLoqdBmpATjJY-15" value="Write message" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-8" target="NaULAwTOLoqdBmpATjJY-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NaULAwTOLoqdBmpATjJY-26" value="Listing, Payment details" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-8" target="NaULAwTOLoqdBmpATjJY-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NaULAwTOLoqdBmpATjJY-26" value="Listing" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-8" target="NaULAwTOLoqdBmpATjJY-25">
+          <mxGeometry x="0.189" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="588" />
+              <mxPoint x="-40" y="588" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-41" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Payment details&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-8" target="NaULAwTOLoqdBmpATjJY-40">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="590" />
+              <mxPoint x="180" y="590" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-8" value="Buyer" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="20" y="445" width="150" height="70" as="geometry" />
@@ -92,42 +107,57 @@
           <mxGeometry x="-250" y="290" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-24" value="Transaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-18" target="NaULAwTOLoqdBmpATjJY-22">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="780" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-29" value="Transaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-18" target="NaULAwTOLoqdBmpATjJY-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="470" y="670" />
-              <mxPoint x="470" y="670" />
+              <mxPoint x="380" y="880" />
+              <mxPoint x="380" y="880" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-18" value="PaymentController" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="250" y="600" width="120" height="120" as="geometry" />
+          <mxGeometry x="120" y="820" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NaULAwTOLoqdBmpATjJY-22" value="Transaction Log" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="800" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NaULAwTOLoqdBmpATjJY-27" value="Order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-25" target="NaULAwTOLoqdBmpATjJY-18">
+        <mxCell id="NaULAwTOLoqdBmpATjJY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-18" target="NaULAwTOLoqdBmpATjJY-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="50" y="640" />
+              <mxPoint x="180" y="1055" />
+              <mxPoint x="-360" y="1055" />
+              <mxPoint x="-360" y="560" />
+              <mxPoint x="50" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-22" value="Transaction Log" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="670" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-27" value="Order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-25" target="NaULAwTOLoqdBmpATjJY-18">
+          <mxGeometry x="-0.7093" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="900" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-25" value="OrderBuilder" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="35" y="580" width="120" height="120" as="geometry" />
+          <mxGeometry x="-85" y="620" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-30" value="Transaction status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-28" target="NaULAwTOLoqdBmpATjJY-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="630" />
-              <mxPoint x="440" y="630" />
+              <mxPoint x="380" y="860" />
+              <mxPoint x="380" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-28" value="Payment Gateway" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="500" y="620" width="150" height="70" as="geometry" />
+          <mxGeometry x="520" y="850" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-36" value="Verified product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-37" target="NaULAwTOLoqdBmpATjJY-35">
           <mxGeometry relative="1" as="geometry">
@@ -156,6 +186,28 @@
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-37" value="ProductVerfier" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="330" y="90" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-42" value="Transaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-40" target="NaULAwTOLoqdBmpATjJY-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="690" />
+              <mxPoint x="60" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-40" value="TransactionBuilder" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="120" y="630" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-44" value="Transaction status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-18" target="NaULAwTOLoqdBmpATjJY-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="1055" />
+              <mxPoint x="-360" y="1055" />
+              <mxPoint x="-360" y="260" />
+              <mxPoint x="-20" y="260" />
+              <mxPoint x="-20" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
