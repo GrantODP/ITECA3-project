@@ -52,7 +52,7 @@
         <mxCell id="NaULAwTOLoqdBmpATjJY-8" value="Buyer" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="20" y="445" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NaULAwTOLoqdBmpATjJY-11" value="Stored product" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-9" target="NaULAwTOLoqdBmpATjJY-3">
+        <mxCell id="NaULAwTOLoqdBmpATjJY-11" value="Product" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-9" target="NaULAwTOLoqdBmpATjJY-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="650" y="410" />
@@ -66,6 +66,15 @@
               <mxPoint x="510" y="500" />
               <mxPoint x="510" y="500" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-38" value="Find product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-9" target="NaULAwTOLoqdBmpATjJY-35">
+          <mxGeometry x="0.3555" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="460" />
+              <mxPoint x="790" y="150" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-9" value="Search engine" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
@@ -132,6 +141,15 @@
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-32" value="ProductBuilder" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="35" y="90" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-39" value="Product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-35" target="NaULAwTOLoqdBmpATjJY-9">
+          <mxGeometry x="-0.1286" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="130" />
+              <mxPoint x="840" y="490" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-35" value="Product Catalog" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="125" width="140" height="50" as="geometry" />
