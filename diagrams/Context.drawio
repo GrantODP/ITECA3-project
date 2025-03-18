@@ -13,6 +13,9 @@
         <mxCell id="Eql-gUoITKVKxfLyw6_d-10" value="Conduct transaction" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eql-gUoITKVKxfLyw6_d-1" target="Eql-gUoITKVKxfLyw6_d-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Eql-gUoITKVKxfLyw6_d-13" value="Schedule delivery" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eql-gUoITKVKxfLyw6_d-1" target="Eql-gUoITKVKxfLyw6_d-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Eql-gUoITKVKxfLyw6_d-1" value="C2C e-Commerce System" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="385" y="390" width="170" height="170" as="geometry" />
         </mxCell>
@@ -38,6 +41,12 @@
         </mxCell>
         <mxCell id="Eql-gUoITKVKxfLyw6_d-4" value="Payment Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eql-gUoITKVKxfLyw6_d-14" value="Confirm schedule" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.025;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.759;entryY=0.924;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Eql-gUoITKVKxfLyw6_d-12" target="Eql-gUoITKVKxfLyw6_d-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eql-gUoITKVKxfLyw6_d-12" value="Delivery Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
