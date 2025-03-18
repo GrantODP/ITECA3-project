@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="Zl7UcjeNf5q_VIIeMTN1">
-    <mxGraphModel dx="951" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1944" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,20 +12,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NaULAwTOLoqdBmpATjJY-3" value="Store Catalog" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+        <mxCell id="NaULAwTOLoqdBmpATjJY-3" value="Listing Catalog" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="305" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NaULAwTOLoqdBmpATjJY-7" value="List item" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-4" target="NaULAwTOLoqdBmpATjJY-3">
+        <mxCell id="NaULAwTOLoqdBmpATjJY-7" value="List item" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-4" target="NaULAwTOLoqdBmpATjJY-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-4" value="ListingBuilder" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="330" y="210" width="120" height="120" as="geometry" />
+          <mxGeometry x="330" y="270" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NaULAwTOLoqdBmpATjJY-6" value="Enter listing details" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-5" target="NaULAwTOLoqdBmpATjJY-4">
+        <mxCell id="NaULAwTOLoqdBmpATjJY-6" value="Enter listing details" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-5" target="NaULAwTOLoqdBmpATjJY-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-33" value="Product item details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-5" target="NaULAwTOLoqdBmpATjJY-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="169.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-5" value="Seller" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="235" width="150" height="70" as="geometry" />
+          <mxGeometry x="20" y="295" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-10" value="Search product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-8" target="NaULAwTOLoqdBmpATjJY-9">
           <mxGeometry relative="1" as="geometry">
@@ -34,6 +42,12 @@
               <mxPoint x="500" y="460" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-15" value="Write message" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-8" target="NaULAwTOLoqdBmpATjJY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-26" value="Listing, Payment details" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-8" target="NaULAwTOLoqdBmpATjJY-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-8" value="Buyer" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="20" y="445" width="150" height="70" as="geometry" />
@@ -56,6 +70,74 @@
         </mxCell>
         <mxCell id="NaULAwTOLoqdBmpATjJY-9" value="Search engine" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="620" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-16" value="Sanatized message" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-14" target="NaULAwTOLoqdBmpATjJY-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-14" value="MessageController" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-17" value="User messages" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="290" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-24" value="Transaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-18" target="NaULAwTOLoqdBmpATjJY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-29" value="Transaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-18" target="NaULAwTOLoqdBmpATjJY-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="670" />
+              <mxPoint x="470" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-18" value="PaymentController" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-22" value="Transaction Log" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="800" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-27" value="Order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-25" target="NaULAwTOLoqdBmpATjJY-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-25" value="OrderBuilder" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="35" y="580" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-30" value="Transaction status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-28" target="NaULAwTOLoqdBmpATjJY-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="630" />
+              <mxPoint x="440" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-28" value="Payment Gateway" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-36" value="Verified product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-37" target="NaULAwTOLoqdBmpATjJY-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574.9999999999995" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-34" value="Product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaULAwTOLoqdBmpATjJY-32" target="NaULAwTOLoqdBmpATjJY-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-32" value="ProductBuilder" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="35" y="90" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-35" value="Product Catalog" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="125" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaULAwTOLoqdBmpATjJY-37" value="ProductVerfier" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
